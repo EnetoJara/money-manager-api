@@ -4,9 +4,8 @@ import cors from 'cors';
 import express, { Application, Request, Response } from 'express';
 import helmet from 'helmet';
 
-
 export default function (): Application {
-	const app: express.Application = express();
+	const app: Application = express();
 	app.use(compress());
 	app.use(helmet());
 	app.use(bodyParser.json());

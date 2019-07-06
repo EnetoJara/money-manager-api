@@ -1,3 +1,6 @@
 PORT=8080
 BABEL_ENV=production
 NODE_ENV=production
+USER=integrations_service
+PSS=dev
+DB=postgres
